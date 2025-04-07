@@ -22,6 +22,7 @@ This project implements a two-layer neural network from scratch in Python to cla
   - Training set: 42,000 labeled images (`data/train.csv`).
   - Test set: 28,000 unlabeled images (`data/test.csv`).
 - Data is preprocessed by normalizing pixel values (divided by 255).
+- **Source**: Download `train.csv` and `test.csv` from [Kaggle Digit Recognizer](https://www.kaggle.com/c/digit-recognizer/data) and place them in the `data/` folder in this repository.
 
 ## Requirements
 - Python 3.x
@@ -36,9 +37,12 @@ This project implements a two-layer neural network from scratch in Python to cla
    git clone https://github.com/sprobulski/neural-network-from-scratch
    cd neural-network-from-scratch
 
-2. **Output**:
- -Training prints accuracy and loss every 50 iterations.
- -Test predictions are saved to a DataFrame and visualized for a sample image.
+2. **Get Data**:
+Download train.csv and test.csv from Kaggle and place them in the data/ folder.
+
+3. **Output**:
+Training prints accuracy and loss every 50 iterations.
+Test predictions are saved to a DataFrame and visualized for a sample image.
 
 ## Results
 - After 1000 iterations with a learning rate of 0.1 and ReLu activation:
@@ -48,8 +52,7 @@ This project implements a two-layer neural network from scratch in Python to cla
 
 ## Files
 - `neural_network_scratch.ipynb`: Main Jupyter notebook with all code.
-- `data/train.csv`: Training data (included).
-- `data/test.csv`: Test data (included).
+- `data/` folder: Contains a placeholder. Add `train.csv` and `test.csv` from Kaggle here.
 
 ## Limitations
 - Simple architecture (two layers, 10 neurons each) limits performance.
